@@ -87,6 +87,123 @@ Data types so far: int, string, float
 
 compile with $./floats
 
+char operator: see noswitch.c
+	-make a note of ' ' versus " "
+	-This can mess up your program
+	-"or" in C is ||
+
+next example: return.c
+	-use int square as a prototype
+	
+NOTES ABOUT SHORTS
+
+COMMAND LINE
+	cp (copy)
+		-Takes two arguments: source and destination
+		-i.e. cp hello.txt hi.txt
+	rm -r (directory)
+		-This deletes a directory
+	rm -rf (directory)
+		-Recursively, forcefully deletes a directory. VERY DANGEROUS don't use this unless you know for sure that you want to destroy it. 
+	
+DATA TYPES
+	-int (integer)
+	-char (character)
+	-float (floating points numbers)
+		-also known as "real numberts"
+	-double (store floating-point values)
+		-Super precise with decimal points (lets decimal place get drawn out further)
+	-void
+		-doesn't return a value
+		-i.e. printf
+	-bool
+	-string
+
+	int number; // declaration
+	number = 17; // assignemnt
+	
+	char letter; // declaraction
+	letter = "H"; // assignment
+	
+OPERATORS	
+	Arithmetic Operators
+		-int x = y + 1;
+		x = x * 5
+		-int m = 13 & 4 // m is now 1
+		
+	Boolean expressions
+		-In C, every nonzero value is true and zero is false
+		-Two main types of boolean expressions: logical operators and relational operators
+			-Logical AND (&&) 
+			-Logical OR (||)
+			
+	Relational Operators
+		-< / <=
+		-> / >=
+		-==
+		-!=
+		
+CONDITIONAL STATEMENTS	
+	if { // boolean expression
+	
+	}
+	else { // else statement
+	
+	}
+	
+	Switch - permits enumeration of discrete cases instead of relying on boolean expressions
+	
+	int x = GetInt();
+	switch(x)
+	{
+		case1:
+		printf("One|\m");
+		break;
+		
+		case2:
+		printf("Two|\n");
+		break;
+		
+		default:
+		printf("Sorry!\n");
+	}
+	
+	The "breaks" are important because you will "fall through" each case
+	
+	?:
+		use ?: to replace very simple if-else to make your code look fancy
+	
+LOOPS
+"While" loop
+	while (boolean-expr) {
+	
+	}
+	
+"Do" loop
+	do
+	{
+	
+	}
+	while (boolean-expr);
+	
+"For" loop
+	for (int i = 0; i < 10; i++)
+	{
+	
+	}
+	for (start; expr; increment;)
+
+Use cases
+	whle 
+		-use when you want a loop to repeat an unknown number of times, and possibly not at all
+	do-while
+		-Use when you want a loop to repeat an unknown number of times, but at least once
+	for
+		-Use when you want a loop to repeat a discrete number of times, though you may not know the number at the moment the program is compiled
+		
+TIME TO MOVE ON TO PSET1
+	
+	
 
 
 
