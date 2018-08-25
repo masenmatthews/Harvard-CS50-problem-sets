@@ -3,39 +3,37 @@ https://www.youtube.com/watch?v=3K4jWlpR4iY&feature=youtu.be
 
 C
 Sample code:
-#include <stdio.h>
+	#include <stdio.h>
 
-int main(void) = “when flag is clicked”
-while (true) = “forever”
-for (int i = 0; i < 50; i++) = 50 times
-{
-	printf(“hello world\n”);
-}	
+	int main(void) = “when flag is clicked”
+	while (true) = “forever”
+	for (int i = 0; i < 50; i++) = 50 times
+	{
+		printf(“hello world\n”);
+	}	
 
-“\n means “put a new line”
-#stdio.h = “standard input”
+	“\n means “put a new line”
+	#stdio.h = “standard input”
 
 IDE = Integrated Development Environment
 	-CS50 IDE (“cs50.io”)
 
-“Source code” = code we write
-“Machine code” = code that computers reads
-“Source code” -> compiler -> “machine code”
+	“Source code” = code we write
+	“Machine code” = code that computers reads
+	“Source code” -> compiler -> “machine code”
 
 Saving files in C:
 	-End with extension .c
 
 !IMPORTANT
-Clang runs the compiler in C.
-	$ clang hello.c
-Running a C file called hello.c would be ran like this in the terminal:
-	$ ./a.out
+	Clang runs the compiler in C.
+		$ clang hello.c
+	Running a C file called hello.c would be ran like this in the terminal:
+		$ ./a.out
 
 Making a new file with the same output under a new name (a copy essentially)
 	$ clang -o hello hello.c
 	* new output file would be called “hello”
-
-
 
 A helpful list of C commands:
 
